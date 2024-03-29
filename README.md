@@ -1,4 +1,4 @@
-# CSI-Based Data-driven Localization \B{Framework} using Small-scale Training Datasets in Single-site MIMO Systems
+# CSI-Based Data-driven Localization Framework using Small-scale Training Datasets in Single-site MIMO Systems
 Implementation of the [paper] (https://arxiv.org/abs/2304.11455)
 # Dataset 
 Dataset Generation using [DeepMIMO](https://www.deepmimo.net/) 
