@@ -21,7 +21,7 @@ Dataset Generation using [DeepMIMO](https://www.deepmimo.net/)
 # 4. CNN Model (Benchmark)
 - The paper compares the FC-AE-GPR to a CNN Fingerpriting model.
 - File Location: CNN/CNN_ADP_Localization.ipynb
-- The notebook has models for  64x64, 32x32,16x16,8x8 ADPs and 4x4 ADP inputs. 
+- The notebook has models for  64x64, 32x32, 16x16, 8x8 ADPs and 4x4 ADP inputs. 
 - The code iterates over 50-fold and calculates the RMSE for each fold. Then calculates the mean RMSE.
 # 5. Normalized Correlation-based Grid Search (Benchmark)
 - The paper compares the FC-AE-GPR to a to a non-parameteric grid search model.
