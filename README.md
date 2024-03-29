@@ -2,7 +2,9 @@
 Implementation of the [paper](https://arxiv.org/abs/2304.11455)
 # 1. Dataset 
 Dataset Generation using [DeepMIMO](https://www.deepmimo.net/) 
-Details on ccenarios and channel parameters required to generate the dataset may be found in the paper. 
+- Details on scenarios and channel parameters required to generate the dataset may be found in the paper.
+- Example code for dataset generation is in "Dataset/DatasetGeneration_ADP_loc.m"
+- Note: the sample code is not enought to generate the dataset.  You will need to download code and data from the DeepMIMO website to generate the dataset. Got to the DeepMIMO dataset and follow the instructions to generate the datasets. 
 # 2. Augmented Dataset
 - File location Dataset/Data augmentation.m
 - The augmented dataset uses augmentation techniques on the ADPs to create a large ADP dataset used for training the FC-AE.
