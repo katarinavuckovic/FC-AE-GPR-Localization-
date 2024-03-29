@@ -18,7 +18,13 @@ Dataset Generation using [DeepMIMO](https://www.deepmimo.net/)
 - The FC-AE folder contains the jupter notebook with the FC-AE models.
 - To train the FC-AE, use the augmented dataset from step 2.
 # 3. GPR
-- The GPR Training and testing models is locted in
+- File location for the GPR model training: FC-AE-GPR/GPR_train_kfold.m
+- File location for the GPR model testing: FC-AE-GPR/GPR_test_kfold.m
+- First the GPR model is trained for different training dataset sizes over 50-folds.
+- This code in "GPR_train_kfold.m" is for the encoded 16x16 ADP data. However, the same code is used for other ADP dataset.
+- After training is complete, the models are evaluted in "GPR_test_kfold.m." The code predicts the location and then calculates the error. 
+- The code in "GPR_train_kfold.m" and "GPR_test_kfold.m"  is for the encoded 16x16 ADP data. However, the same code is used for other ADP dataset.
+
 # 4. CNN Model (Benchmark)
 - The paper compares the FC-AE-GPR to a CNN Fingerpriting model.
 - File Location: CNN/CNN_ADP_Localization.ipynb
