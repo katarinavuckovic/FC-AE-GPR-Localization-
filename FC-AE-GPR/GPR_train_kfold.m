@@ -1,7 +1,6 @@
-% Gaussian Process Regression for Localization with Encoded Data
+% Train Gaussian Process Regression Model for Localization with Encoded ADP data
 % Authors: Katarina Vuckovic
 % Date: 3/29/2024
-% Description: 
 % Description: This script trains the Gaussian Process Regression (GPR) model for
 % localization using a dataset of ADP samples. 
 % The code is using a Matern 3/2 kernel. Replace with other kernels and repeat simulation to train the best model. 
