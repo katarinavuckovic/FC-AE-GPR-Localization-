@@ -1,9 +1,11 @@
 % Gaussian Process Regression for Localization with Encoded Data
 % Authors: Katarina Vuckovic
 % Date: 3/29/2024
-% Description: This script performs Gaussian Process Regression (GPR) for
-% localization using encoded antenna array measurements with a Matern 3/2 kernel. 
-% Replace with other kernels and repeat simulation to train the best model. 
+% Description: 
+%% Description: This script trains the Gaussian Process Regression (GPR) model for
+% localization using a dataset of ADP samples. 
+% The code is using a Matern 3/2 kernel. Replace with other kernels and repeat simulation to train the best model. 
+% The example is for encoded 16x16 ADP. 
 
 % References:
 % 1. https://www.mathworks.com/help/stats/fitrgp.html
