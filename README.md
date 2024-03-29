@@ -16,5 +16,14 @@ Dataset Generation using [DeepMIMO](https://www.deepmimo.net/)
 - By reducing the size of ADP to 4x4 prior to training the GPR model, we reduce the GPR training complexity. 
 - The FC-AE folder contains the jupter notebook with the FC-AE models.
 - To train the FC-AE, use the augmented dataset from step 2.
-
-
+# 3. GPR
+- The GPR Training and testing models is locted in
+# 4. CNN Model (Benchmark)
+- The paper compares the FC-AE-GPR to a CNN Fingerpriting model.
+- File Location: CNN/CNN_ADP_Localization.ipynb
+- The notebook has models for  64x64, 32x32,16x16,8x8 ADPs and 4x4 ADP inputs. 
+- The code iterates over 50-fold and calculates the RMSE for each fold. Then calculates the mean RMSE.
+# 5. Normalized Correlation-based Grid Search (Benchmark)
+- The paper compares the FC-AE-GPR to a to a non-parameteric grid search model.
+- File location: Grid Search/correlation_based_localization.m
+- The code iterates over 50-fold and calculates the RMSE for each fold. Then calculates the mean RMSE.
