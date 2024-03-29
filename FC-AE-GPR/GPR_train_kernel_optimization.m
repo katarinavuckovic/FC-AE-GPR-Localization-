@@ -1,8 +1,10 @@
 % Gaussian Process Regression for Localization
-% Authors: [Your Name(s)]
-% Date: [Date]
+% Authors: Katarina Vuckovic
+% Date: 3/29/2024
 % Description: This script performs Gaussian Process Regression (GPR) for
 % localization using a dataset of antenna array measurements.
+% This code optimizes over multiple kernels. 
+
 
 % References:
 % 1. https://www.mathworks.com/help/stats/fitrgp.html
